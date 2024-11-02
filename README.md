@@ -9,9 +9,9 @@
 
 <p align="center">
 
-改进从 PDF 或 OCR 复制的中文文本格式。智能删除空行、空格、乱码，[paper-assistant](https://github.com/laorange/paper-assistant) 的 Raycast 移植版本。
+改进从 PDF 或 OCR 复制的中文文本格式。智能删除空行、空格、乱码，[paper-assistant](https://github.com/laorange/paper-assistant) 的 [Raycast](https://www.raycast.com/) 移植版本。
 
-Improve the formatting of Chinese text copied from a PDF or OCR. A Raycast port of [paper-assistant](https://github.com/laorange/paper-assistant).
+Improve the formatting of Chinese text copied from a PDF or OCR. A [Raycast](https://www.raycast.com/) port of [paper-assistant](https://github.com/laorange/paper-assistant).
 
 </p>
 
@@ -30,6 +30,7 @@ Recently, I've been copying content from various papers and books (mostly PDFs),
 1. 克隆这个仓库 `git clone https://github.com/maxchang3/raycast-chinese-copy-assistant.git`
 2. 进入文件夹 `cd raycast-chinese-copy-assistant`
 3. 安装依赖 `pnpm install`
+4. 在 Raycast 中运行 Import Extension 并选择文件夹
 
 由于原始项目的协议原因，目前**没有**计划发布到 [raycast/extensions](https://github.com/raycast/extensions)。
 
