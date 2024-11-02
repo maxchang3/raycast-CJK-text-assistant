@@ -56,7 +56,7 @@ Due to licensing reasons, there are **no** plans to publish this to [raycast/ext
 * ······
 
 和原始项目相比：
-* 默认开启了**中文排版优化**，配置默认值见 [CONFIG. MD](CONFIG.md)
+* 默认开启了**中文排版优化**，配置默认值见 [CONFIG.MD](CONFIG.md)
 * 对于行尾换行符会单独保留
 
 Inherits almost all features from [paper-assistant](https://github.com/laorange/paper-assistant):
@@ -68,7 +68,9 @@ Inherits almost all features from [paper-assistant](https://github.com/laorange/
 * Convert Chinese and English punctuation
 * ······
 
-Compared to the original project, **Chinese typesetting optimization** is enabled by default, see [CONFIG. MD](CONFIG.md) for details.
+Compared to the original project:
+* **Chinese typesetting optimization** is enabled by default, see [CONFIG.MD](CONFIG.md) for default values
+* For line breaks at the end of a line, they will be retained separately
 
 ## Credits
 
