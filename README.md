@@ -55,7 +55,9 @@ Due to licensing reasons, there are **no** plans to publish this to [raycast/ext
 * 中英文标点转换
 * ······
 
-和原始项目相比，默认开启了**中文排版优化**，配置默认值见 [CONFIG. MD](CONFIG.md)。同时，对于行尾换行符会单独保留。
+和原始项目相比：
+* 默认开启了**中文排版优化**，配置默认值见 [CONFIG. MD](CONFIG.md)
+* 对于行尾换行符会单独保留
 
 Inherits almost all features from [paper-assistant](https://github.com/laorange/paper-assistant):
 
