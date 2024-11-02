@@ -8,7 +8,7 @@
   "categories": [
     "Productivity"
   ],
-  "license": "MIT",
+  "license": "AGPL-3.0",
   "commands": [
     {
       "name": "text-format",
