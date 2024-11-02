@@ -38,8 +38,8 @@ Currently, you need to clone this repo and install it locally in developer mode.
 You will need to have Node.js and pnpm installed.
 
 1. Clone this repo `git clone https://github.com/maxchang3/raycast-chinese-copy-assistant.git`
-2. Go to the folder cd raycast-multi-translate
-3. Install dependencies pnpm install
+2. Go to the folder `cd raycast-chinese-copy-assistant`
+3. Install dependencies `pnpm install`
 4. Go to Raycast, run Import Extension and select the folder
 
 Due to licensing reasons, there are **no** plans to publish this to [raycast/extensions](https://github.com/raycast/extensions).
@@ -48,32 +48,32 @@ Due to licensing reasons, there are **no** plans to publish this to [raycast/ext
 
 继承了 [paper-assistant](https://github.com/laorange/paper-assistant) 的几乎所有功能：
 
-- 删除引用角标，如: [1], [2, 3], [4-7], (1), (2, 3), (4-7)...
-- 全角字符转半角字符
-- 批量替换字符
-- 汉字繁简转换
-- 中英文标点转换
-- ······
+* 删除引用角标，如: [1], [2, 3], [4-7], (1), (2, 3), (4-7)...
+* 全角字符转半角字符
+* 批量替换字符
+* 汉字繁简转换
+* 中英文标点转换
+* ······
 
-和原始项目相比，默认开启了**中文排版优化**，具体见 [CONFIG.MD](CONFIG.md)。
+和原始项目相比，默认开启了**中文排版优化**，具体见 [CONFIG. MD](CONFIG.md)。
 
 Inherits almost all features from [paper-assistant](https://github.com/laorange/paper-assistant):
 
-- Remove reference marks, such as: [1], [2, 3], [4-7], (1), (2, 3), (4-7)...
-- Convert full-width characters to half-width characters
-- Batch replace characters
-- Convert Chinese characters between simplified and traditional
-- Convert Chinese and English punctuation
-- ······
+* Remove reference marks, such as: [1], [2, 3], [4-7], (1), (2, 3), (4-7)...
+* Convert full-width characters to half-width characters
+* Batch replace characters
+* Convert Chinese characters between simplified and traditional
+* Convert Chinese and English punctuation
+* ······
 
-Compared to the original project, **Chinese typesetting optimization** is enabled by default, see [CONFIG.MD](CONFIG.md) for details.
+Compared to the original project, **Chinese typesetting optimization** is enabled by default, see [CONFIG. MD](CONFIG.md) for details.
 
 ## Credits
 
-- [paper-assistant](https://github.com/laorange/paper-assistant) 原始项目。
-- [raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format) 灵感来源，部分代码。
+* [paper-assistant](https://github.com/laorange/paper-assistant) 原始项目。
+* [raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format) 灵感来源，部分代码。
+* [raycast-multi-translate](https://github.com/antfu/raycast-multi-translate) 参考了文档格式、插件结构。
 
 ## License
 
 [AGPL-3.0](./LICENSE)
-
