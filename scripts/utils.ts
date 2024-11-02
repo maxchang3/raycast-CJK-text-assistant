@@ -88,7 +88,7 @@ export const typegen = () => {
 export const mdgen = () => {
     const cells = Object.entries(textHandlers)
         .map(([, { activate, description }]) =>
-            `| ${description} | ${activate ? "**是**" : "否"} |`
+            `| ${description} | ${activate ? "✅" : "❌"} |`
         )
     return `<!-- ${AUTOGEN_COMMENT} -->\n# 默认设置 \n\n| 功能 | 是否默认开启 |\n| --- | --- |\n${cells.join("\n")}\n`
 }
