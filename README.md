@@ -28,8 +28,8 @@ Recently, I've been copying content from various papers and books (mostly PDFs),
 你需要安装 Node.js 和 pnpm。
 
 1. 克隆这个仓库 `git clone https://github.com/maxchang3/raycast-chinese-copy-assistant.git`
-2. 进入文件夹 cd raycast-chinese-copy-assistant
-3. 安装依赖 pnpm install
+2. 进入文件夹 `cd raycast-chinese-copy-assistant`
+3. 安装依赖 `pnpm install --prod`
 
 由于原始项目的协议原因，目前**没有**计划发布到 [raycast/extensions](https://github.com/raycast/extensions)。
 
