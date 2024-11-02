@@ -29,7 +29,7 @@ Recently, I've been copying content from various papers and books (mostly PDFs),
 
 1. 克隆这个仓库 `git clone https://github.com/maxchang3/raycast-chinese-copy-assistant.git`
 2. 进入文件夹 `cd raycast-chinese-copy-assistant`
-3. 安装依赖 `pnpm install --prod`
+3. 安装依赖 `pnpm install`
 
 由于原始项目的协议原因，目前**没有**计划发布到 [raycast/extensions](https://github.com/raycast/extensions)。
 
@@ -39,7 +39,7 @@ You will need to have Node.js and pnpm installed.
 
 1. Clone this repo `git clone https://github.com/maxchang3/raycast-chinese-copy-assistant.git`
 2. Go to the folder `cd raycast-chinese-copy-assistant`
-3. Install dependencies `pnpm install --prod`
+3. Install dependencies `pnpm install`
 4. Go to Raycast, run Import Extension and select the folder
 
 Due to licensing reasons, there are **no** plans to publish this to [raycast/extensions](https://github.com/raycast/extensions).
