@@ -105,7 +105,6 @@ export const action = (type: string) => {
             console.log("\x1b[32mType definitions have been written to \x1b[34msrc/lib/types.ts\x1b[0m")
             break
         case "mdgen":
-            // 追加文本到 CONFIG.md
             fs.writeFileSync("CONFIG.md", mdgen())
             console.log("\x1b[32mMarkdown table has been appended to \x1b[34mCONFIG.md\x1b[0m")
             break
