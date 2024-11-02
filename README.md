@@ -15,13 +15,13 @@ Improve the formatting of Chinese text copied from a PDF or OCR. A Raycast port 
 
 </p>
 
-## 动机 Motivation
+## Motivation 动机
 
 最近，我经常从一些论文和书籍中复制内容（大多数是 PDF），在发现格式问题需要修正后找到了 [paper-assistant](https://github.com/laorange/paper-assistant) 这个工具，它非常好用！但是我同时也在用一个 Raycast 插件——[raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format)，他也有类似的功能，不过只是单纯调用 pangu 来加空格。某一天，我依旧复制出来带有空格的文本的时候我在想，为什么不把他们结合在一起呢？于是他就诞生了。
 
 Recently, I've been copying content from various papers and books (mostly PDFs), and when formatting issues cropped up, I discovered the incredibly useful [paper-assistant](https://github.com/laorange/paper-assistant) tool. At the same time, I was also using a Raycast plugin—[raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format)—which has similar functionality but primarily uses pangu to add spaces. One day, while pasting text with extra spaces, it struck me: why not combine the two? And that’s how this idea came to life.
 
-## 安装 Installation
+## Installation 安装
 
 目前，你需要克隆这个仓库并在开发者模式下本地安装。
 
