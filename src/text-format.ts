@@ -10,7 +10,7 @@ import { formatters } from "./lib"
 
 export default async function main() {
     try {
-        const selection = await getSelection()
+        const selection = await getSelectedText()
         const newlineAtEnd = selection.at(-1) === "\n"
         if (selection.trim().length === 0) {
             showHUD("No valid text is selected.")
@@ -37,10 +37,3 @@ export default async function main() {
     }
 }
 
-async function getSelection() {
-    try {
-        return await getSelectedText()
-    } catch (error) {
-        return ""
-    }
-}
