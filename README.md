@@ -39,7 +39,7 @@ You will need to have Node.js and pnpm installed.
 
 1. Clone this repo `git clone https://github.com/maxchang3/raycast-chinese-copy-assistant.git`
 2. Go to the folder `cd raycast-chinese-copy-assistant`
-3. Install dependencies `pnpm install`
+3. Install dependencies `pnpm install --prod`
 4. Go to Raycast, run Import Extension and select the folder
 
 Due to licensing reasons, there are **no** plans to publish this to [raycast/extensions](https://github.com/raycast/extensions).
