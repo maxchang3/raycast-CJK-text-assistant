@@ -23,7 +23,10 @@ export default async function main() {
                 outputText = textHandler.executor(outputText)
             }
         })
-        Clipboard.paste(outputText + (newlineAtEnd ? "\n" : ""))
+        if (newlineAtEnd) {
+            outputText += "\n"
+        }
+        Clipboard.paste(outputText)
         showHUD("Text has been auto-corrected.")
         closeMainWindow()
     } catch (error) {
