@@ -53,7 +53,7 @@ export interface Preferences {
      **/
     deleteSpaceBetweenColonAndNumber: false
     /**
-     * 规范中文排版（参考 https://sspai.com/post/37815）
+     * 规范中文排版（参考 https://sspai.com/post/37815 ）
      **/
     addWhiteOfPanGu: true
     /**
