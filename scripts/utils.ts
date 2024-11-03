@@ -62,18 +62,15 @@ type Preference<Type extends PreferenceType = PreferenceType> =
 
 export const manifestgen = () => {
     const preferences: Preference<"checkbox">[] = Object.entries(textHandlers)
-        .map(([handlerName, { activate, description }]) => {
-            const preference = {
-                name: handlerName,
-                title: description,
-                description,
-                type: "checkbox",
-                required: false,
-                default: activate,
-                label: "开启"
-            } as const
-            return preference
-        })
+        .map(([handlerName, { activate, description }]) => ({
+            name: handlerName,
+            title: description,
+            description,
+            type: "checkbox",
+            required: false,
+            default: activate,
+            label: "开启"
+        }))
     return preferences
 }
 
