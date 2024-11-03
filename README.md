@@ -32,7 +32,7 @@ Recently, I've been copying content from various papers and books (mostly PDFs),
 3. 安装依赖 `pnpm install`
 4. 在 Raycast 中运行 Import Extension 并选择文件夹
 
-由于原始项目的协议原因，目前**没有**计划发布到 [raycast/extensions](https://github.com/raycast/extensions)。
+由于原始项目的协议原因，目前**没有可能**发布到 [raycast/extensions](https://github.com/raycast/extensions)。
 
 Currently, you need to clone this repo and install it locally in developer mode.
 
@@ -43,7 +43,7 @@ You will need to have Node.js and pnpm installed.
 3. Install dependencies `pnpm install`
 4. Go to Raycast, run Import Extension and select the folder
 
-Due to licensing reasons, there are **no** plans to publish this to [raycast/extensions](https://github.com/raycast/extensions).
+Due to licensing reasons, there are **no possibility** to publish this to [raycast/extensions](https://github.com/raycast/extensions).
 
 ## Features 特性
 
