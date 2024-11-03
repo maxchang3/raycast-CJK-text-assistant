@@ -61,7 +61,7 @@ type Preference<Type extends PreferenceType = PreferenceType> =
     CommonPreference<Type>
 
 export const manifestgen = () => {
-    const preferences: Preference[] = Object.entries(textHandlers)
+    const preferences: Preference<"checkbox">[] = Object.entries(textHandlers)
         .map(([handlerName, { activate, description }]) => {
             const preference = {
                 name: handlerName,
@@ -74,7 +74,7 @@ export const manifestgen = () => {
             } as const
             return preference
         })
-    return JSON.stringify(preferences, null, 2)
+    return preferences
 }
 
 export const typegen = () => {
@@ -96,7 +96,7 @@ export const mdgen = () => {
 export const action = (type: string) => {
     switch (type) {
         case "manifest":
-            packageJSON.preferences = JSON.parse(manifestgen())
+            packageJSON.preferences = manifestgen()
             fs.writeFileSync("package.json", `${JSON.stringify(packageJSON, null, 2)}\n`)
             console.log("\x1b[32mPreferences have been written to \x1b[34mpackage.json\x1b[0m")
             break
