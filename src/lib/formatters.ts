@@ -1,6 +1,5 @@
 import { getPreferenceValues } from "@raycast/api"
 import { textHandlers } from "./article-copy-tool/handlers"
-import type { Preferences } from "./types"
 
 type Entries<T> = {
     [K in keyof T]: [K, T[K]]

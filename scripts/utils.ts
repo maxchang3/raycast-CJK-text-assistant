@@ -77,13 +77,6 @@ export const manifestgen = () => {
     return preferences
 }
 
-export const typegen = () => {
-    const preferencesType = Object.entries(textHandlers)
-        .map(([handlerName, { activate, description }]) => `    /**\n     * ${description}\n     **/
-    ${handlerName}: ${activate ? "true" : "false"}`
-        )
-    return `// ${AUTOGEN_COMMENT}\nexport interface Preferences {\n${preferencesType.join("\n")}\n}`
-}
 
 export const mdgen = () => {
     const cells = Object.entries(textHandlers)
@@ -99,10 +92,6 @@ export const action = (type: string) => {
             packageJSON.preferences = manifestgen()
             fs.writeFileSync("package.json", `${JSON.stringify(packageJSON, null, 2)}\n`)
             console.log("\x1b[32mPreferences have been written to \x1b[34mpackage.json\x1b[0m")
-            break
-        case "typegen":
-            fs.writeFileSync("src/lib/types.ts", typegen())
-            console.log("\x1b[32mType definitions have been written to \x1b[34msrc/lib/types.ts\x1b[0m")
             break
         case "mdgen":
             fs.writeFileSync("CONFIG.md", mdgen())
