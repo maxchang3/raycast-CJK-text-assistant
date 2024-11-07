@@ -3,7 +3,7 @@
  *
  * Source: https://github.com/laorange/paper-assistant
  * Original Filepath: src/assets/ts/article-copy-tool/handlers.ts
- *
+ * Commit: be95303
  * This file was originally created by the authors of the above project and
  * is reused here in accordance with the AGPL-3.0 License.
  */
