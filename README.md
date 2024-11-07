@@ -25,8 +25,8 @@
 
 你需要安装 Node.js 和 pnpm。
 
-1. 克隆这个仓库 `git clone https://github.com/maxchang3/raycast-chinese-copy-assistant.git`
-2. 进入文件夹 `cd raycast-chinese-copy-assistant`
+1. 克隆这个仓库 `git clone https://github.com/maxchang3/raycast-CJK-text-assistant.git`
+2. 进入文件夹 `cd raycast-CJK-text-assistant`
 3. 安装依赖 `pnpm install`
 4. 在 Raycast 中运行 Import Extension 并选择文件夹
 
