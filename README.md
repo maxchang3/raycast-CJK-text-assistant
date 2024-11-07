@@ -4,15 +4,18 @@
 <img src="./assets/extension-icon.png" width="140" height="140" align="center" />
 </p>
 
-<h1 align="center">中文复制助手 <sup>for Raycast</sup></h1>
-<h1 align="center">Chinese Copy Assistant</h1>
+<h1 align="center">CJK 文本助手 <sup>for Raycast</sup></h1>
+<h1 align="center">CJK Text Assistant</h1>
 
 <p align="center">
 
-改进从 PDF 或 OCR 复制的中文文本格式。智能删除空行、空格、乱码，[paper-assistant](https://github.com/laorange/paper-assistant) 的 [Raycast](https://www.raycast.com/) 移植版本。
+改进中日韩（CJK）文本的排版（尤其是与英文混排），提供以下两个命令：
+* **Improve Copied Text**: 优化从 PDF 或 OCR 中复制的文本格式（移植自 [paper-assistant](https://github.com/laorange/paper-assistant)）
+* **Format Text**: 在 CJK 字符和英文字符之间添加空格。（通过 [pangu.js](https://github.com/vinta/pangu.js))
 
-Improve the formatting of Chinese text copied from a PDF or OCR. A [Raycast](https://www.raycast.com/) port of [paper-assistant](https://github.com/laorange/paper-assistant).
-
+Improve the formatting of Chinese, Japanese, and Korean(CJK) text (especially when mixed with English) with the following two commands:
+* **Improve Copied Text**: Improve the formatting of text copied from PDFs or OCR (ported from [paper-assistant](https://github.com/laorange/paper-assistant))
+* **Format Text**: Add spaces between CJK characters and English characters. (via [pangu.js](
 </p>
 
 ## Motivation 动机
@@ -47,6 +50,14 @@ Due to licensing reasons, there are **no possibility** to publish this to [rayca
 
 ## Features 特性
 
+### Format Text 格式化文本
+
+在 CJK 字符和英文字符之间添加空格。
+
+Add spaces between CJK characters and English characters.
+
+### Improve Copied Text 优化复制的文本
+
 继承了 [paper-assistant](https://github.com/laorange/paper-assistant) 的几乎所有功能：
 
 * 删除引用角标，如: [1], [2, 3], [4-7], (1), (2, 3), (4-7)...
@@ -70,7 +81,7 @@ Inherits almost all features from [paper-assistant](https://github.com/laorange/
 * ······
 
 Compared to the original project:
-* **Chinese typesetting optimization** is enabled by default, see [CONFIG.MD](CONFIG.md) for default values
+* **Chinese typesetting optimization** is enabled by default, see [CONFIG. MD](CONFIG.md) for default values
 * For line breaks at the end of a line, they will be retained separately
 
 ## Credits
