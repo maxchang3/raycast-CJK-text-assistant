@@ -17,7 +17,7 @@ Improve the formatting of Chinese, Japanese, and Korean(CJK) text (especially wh
 
 ## Motivation
 
-Recently, I've been copying content from various papers and books (mostly PDFs), and when formatting issues cropped up, I discovered the incredibly useful [paper-assistant](https://github.com/laorange/paper-assistant) tool. At the same time, I was also using a Raycast plugin—[raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format)—which has similar functionality but primarily uses pangu to add spaces. One day, while pasting text with extra spaces, it struck me: why not combine the two? And that’s how this idea came to life.
+Recently, I've been copying content from various papers and books (mostly PDFs), and when formatting issues cropped up, I discovered the incredibly useful [paper-assistant](https://github.com/laorange/paper-assistant) tool. At the same time, I was also using a Raycast plugin—[raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format)—which uses [pangu.js](https://github.com/vinta/pangu.js) to add spaces between Chinese and English characters. One day, while pasting text with extra spaces, it struck me: why not combine the two? And that’s how this idea came to life.
 
 ## Installation
 

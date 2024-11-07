@@ -18,7 +18,7 @@
 
 ## 动机
 
-最近，我经常从一些论文和书籍中复制内容（大多数是 PDF），在发现格式问题需要修正后找到了 [paper-assistant](https://github.com/laorange/paper-assistant) 这个工具，它非常好用！但是我同时也在用一个 Raycast 插件——[raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format)，他也有类似的功能，不过只是单纯调用 pangu 来加空格。某一天，我依旧复制出来带有空格的文本的时候我在想，为什么不把他们结合在一起呢？于是他就诞生了。
+最近，我经常从一些论文和书籍中复制内容（大多数是 PDF），在发现格式问题需要修正后找到了 [paper-assistant](https://github.com/laorange/paper-assistant) 这个工具，它非常好用！但是我同时也在用一个 Raycast 插件——[raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format)，他使用 [pangu.js](https://github.com/vinta/pangu.js) 来在中英文之间添加空格。某一天，我依旧复制出来带有空格的文本的时候我在想，为什么不把他们结合在一起呢？于是他就诞生了。
 
 ## 安装
 
