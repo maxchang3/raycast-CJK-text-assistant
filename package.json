@@ -11,9 +11,15 @@
   "license": "AGPL-3.0",
   "commands": [
     {
-      "name": "text-format",
-      "title": "Text Format",
+      "name": "format-text",
+      "title": "Format Copied Text",
       "description": "Format text copied from a PDF or OCR.",
+      "mode": "no-view"
+    },
+    {
+      "name": "pangu-text",
+      "title": "Pangu Text",
+      "description": "Format text using pangu.js.",
       "mode": "no-view"
     }
   ],
