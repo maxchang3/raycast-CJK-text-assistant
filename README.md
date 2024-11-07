@@ -5,26 +5,22 @@
 </p>
 
 <h1 align="center">CJK 文本助手 <sup>for Raycast</sup></h1>
-<h1 align="center">CJK Text Assistant</h1>
 
 <p align="center">
+
+简体中文 | [English](./README_EN.md)
 
 改进中日韩（CJK）文本的排版（尤其是与英文混排），提供以下两个命令：
 * **Improve Copied Text**: 优化从 PDF 或 OCR 中复制的文本格式（移植自 [paper-assistant](https://github.com/laorange/paper-assistant)）
 * **Format Text**: 在 CJK 字符和英文字符之间添加空格。（通过 [pangu.js](https://github.com/vinta/pangu.js))
 
-Improve the formatting of Chinese, Japanese, and Korean(CJK) text (especially when mixed with English) with the following two commands:
-* **Improve Copied Text**: Improve the formatting of text copied from PDFs or OCR (ported from [paper-assistant](https://github.com/laorange/paper-assistant))
-* **Format Text**: Add spaces between CJK characters and English characters. (via [pangu.js](
 </p>
 
-## Motivation 动机
+## 动机
 
 最近，我经常从一些论文和书籍中复制内容（大多数是 PDF），在发现格式问题需要修正后找到了 [paper-assistant](https://github.com/laorange/paper-assistant) 这个工具，它非常好用！但是我同时也在用一个 Raycast 插件——[raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format)，他也有类似的功能，不过只是单纯调用 pangu 来加空格。某一天，我依旧复制出来带有空格的文本的时候我在想，为什么不把他们结合在一起呢？于是他就诞生了。
 
-Recently, I've been copying content from various papers and books (mostly PDFs), and when formatting issues cropped up, I discovered the incredibly useful [paper-assistant](https://github.com/laorange/paper-assistant) tool. At the same time, I was also using a Raycast plugin—[raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format)—which has similar functionality but primarily uses pangu to add spaces. One day, while pasting text with extra spaces, it struck me: why not combine the two? And that’s how this idea came to life.
-
-## Installation 安装
+## 安装
 
 目前，你需要克隆这个仓库并在开发者模式下本地安装。
 
@@ -37,26 +33,13 @@ Recently, I've been copying content from various papers and books (mostly PDFs),
 
 由于原始项目的协议原因，目前**没有可能**发布到 [raycast/extensions](https://github.com/raycast/extensions)。
 
-Currently, you need to clone this repo and install it locally in developer mode.
+## 特性
 
-You will need to have Node.js and pnpm installed.
-
-1. Clone this repo `git clone https://github.com/maxchang3/raycast-chinese-copy-assistant.git`
-2. Go to the folder `cd raycast-chinese-copy-assistant`
-3. Install dependencies `pnpm install`
-4. Go to Raycast, run Import Extension and select the folder
-
-Due to licensing reasons, there are **no possibility** to publish this to [raycast/extensions](https://github.com/raycast/extensions).
-
-## Features 特性
-
-### Format Text 格式化文本
+### Format Text（格式化文本）
 
 在 CJK 字符和英文字符之间添加空格。
 
-Add spaces between CJK characters and English characters.
-
-### Improve Copied Text 优化复制的文本
+### Improve Copied Text（优化复制的文本）
 
 继承了 [paper-assistant](https://github.com/laorange/paper-assistant) 的几乎所有功能：
 
@@ -68,27 +51,14 @@ Add spaces between CJK characters and English characters.
 * ······
 
 和原始项目相比：
-* 默认开启了**中文排版优化**，配置默认值见 [CONFIG.MD](CONFIG.md)
+* 默认开启了**中文排版优化**，配置默认值见 [CONFIG. MD](CONFIG.md)
 * 对于行尾换行符会单独保留
-
-Inherits almost all features from [paper-assistant](https://github.com/laorange/paper-assistant):
-
-* Remove reference marks, such as: [1], [2, 3], [4-7], (1), (2, 3), (4-7)...
-* Convert full-width characters to half-width characters
-* Batch replace characters
-* Convert Chinese characters between simplified and traditional
-* Convert Chinese and English punctuation
-* ······
-
-Compared to the original project:
-* **Chinese typesetting optimization** is enabled by default, see [CONFIG. MD](CONFIG.md) for default values
-* For line breaks at the end of a line, they will be retained separately
 
 ## Credits
 
 * [paper-assistant](https://github.com/laorange/paper-assistant) 原始项目。
 * [raycast-text-format](https://github.com/mrgeneralgoo/raycast-text-format) 灵感来源，部分代码。
-* [raycast-multi-translate](https://github.com/antfu/raycast-multi-translate) 参考了文档格式、插件结构。
+* [raycast-multi-translate](https://github.com/antfu/raycast-multi-translate) 参考了文档格式。
 
 ## License
 
