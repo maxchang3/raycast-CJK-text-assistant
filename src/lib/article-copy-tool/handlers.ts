@@ -167,7 +167,7 @@ export const textHandlers: TextHandlers = {
   },
 
   addWhiteOfPanGu: {
-    description: `规范中文排版（参考 https://sspai.com/post/37815 ）`,
+    description: `规范中文排版（使用 pangu.js）`,
     activate: true,
     executor: (text: string) => pangu.spacing(text),
   },

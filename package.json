@@ -143,8 +143,8 @@
     },
     {
       "name": "addWhiteOfPanGu",
-      "title": "规范中文排版（参考 https://sspai.com/post/37815 ）",
-      "description": "规范中文排版（参考 https://sspai.com/post/37815 ）",
+      "title": "规范中文排版（使用 pangu.js）",
+      "description": "规范中文排版（使用 pangu.js）",
       "type": "checkbox",
       "required": false,
       "default": true,
