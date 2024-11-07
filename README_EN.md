@@ -50,7 +50,7 @@ Inherits almost all features from [paper-assistant](https://github.com/laorange/
 * ······
 
 Compared to the original project:
-* **Chinese typesetting optimization** is enabled by default, see [CONFIG. MD](CONFIG.md) for default values
+* **Chinese typesetting optimization** is enabled by default, see [CONFIG.MD](CONFIG.md) for default values
 * For line breaks at the end of a line, they will be retained separately
 
 ## Credits
