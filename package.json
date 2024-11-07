@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "chinese-copy-assistant",
-  "title": "Chinese Copy Assistant",
-  "description": "Improve the formatting of Chinese text copied from PDFs or OCR.",
+  "title": "CJK Text Assistant",
+  "description": "Improve the formatting of CJK text. Format text copied from PDFs or OCR, add whitespace between CJk characters and English characters, and more.",
   "icon": "extension-icon.png",
   "author": "maxchang3",
   "categories": [
@@ -11,14 +11,14 @@
   "license": "AGPL-3.0",
   "commands": [
     {
-      "name": "format-text",
-      "title": "Format Copied Text",
-      "description": "Format text copied from a PDF or OCR.",
+      "name": "improve-copied",
+      "title": "Improve Copied Text",
+      "description": "Improve text copied from a PDF or OCR.",
       "mode": "no-view"
     },
     {
-      "name": "pangu-text",
-      "title": "Pangu Text",
+      "name": "format-text",
+      "title": "Format Text",
       "description": "Format text using pangu.js.",
       "mode": "no-view"
     }
