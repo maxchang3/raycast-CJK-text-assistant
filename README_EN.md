@@ -1,3 +1,4 @@
+[简体中文](./README.md) | English
 <br>
 <br>
 <p align="center">
@@ -7,8 +8,6 @@
 <h1 align="center">CJK Text Assistant<sup>for Raycast</sup></h1>
 
 <p align="center">
-
-[简体中文](./README.md) | English
 
 Improve the formatting of Chinese, Japanese, and Korean(CJK) text (especially when mixed with English) with the following two commands:
 * **Improve Copied Text**: Improve the formatting of text copied from PDFs or OCR (ported from [paper-assistant](https://github.com/laorange/paper-assistant)，mainly for Chinese text)

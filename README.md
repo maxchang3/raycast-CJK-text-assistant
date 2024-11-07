@@ -1,3 +1,4 @@
+简体中文 | [English](./README_EN.md)
 <br>
 <br>
 <p align="center">
@@ -7,8 +8,6 @@
 <h1 align="center">CJK 文本助手 <sup>for Raycast</sup></h1>
 
 <p align="center">
-
-简体中文 | [English](./README_EN.md)
 
 改进中日韩（CJK）文本的排版（尤其是与英文混排），提供以下两个命令：
 * **Improve Copied Text**: 优化从 PDF 或 OCR 中复制的文本格式（移植自 [paper-assistant](https://github.com/laorange/paper-assistant)）
