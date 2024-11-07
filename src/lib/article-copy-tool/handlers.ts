@@ -8,24 +8,24 @@
  * is reused here in accordance with the AGPL-3.0 License.
  */
 
-import pangu from "pangu";
-import { Converter } from "opencc-js";
+import pangu from "pangu"
+import { Converter } from "opencc-js"
 
 export interface TextHandler {
-  activate: boolean; // 默认是否启用
-  description: string; // 对该功能的描述
-  executor: (text: string) => string; // 功能函数
+  activate: boolean // 默认是否启用
+  description: string // 对该功能的描述
+  executor: (text: string) => string // 功能函数
 }
 
 export interface TextHandlers {
-  [handlerName: string]: TextHandler;
+  [handlerName: string]: TextHandler
 }
 
 export interface TextHandlerWithName extends TextHandler {
-  handlerName: string;
+  handlerName: string
 }
 
-export type ReplaceTuple = [RegExp | string, string];
+export type ReplaceTuple = [RegExp | string, string]
 
 export const textHandlers: TextHandlers = {
   transferEnglishPunctuationToChinese: {
@@ -45,8 +45,8 @@ export const textHandlers: TextHandlers = {
         ["(", "（"],
         [")", "）"],
         ["!", "！"],
-      ];
-      return punctuationTuples.reduce((t, tuple) => t.replaceAll(tuple[0], tuple[1]), text);
+      ]
+      return punctuationTuples.reduce((t, tuple) => t.replaceAll(tuple[0], tuple[1]), text)
     },
   },
 
@@ -67,8 +67,8 @@ export const textHandlers: TextHandlers = {
         ["（", "("],
         ["）", ")"],
         ["！", "!"],
-      ];
-      return punctuationTuples.reduce((t, tuple) => t.replaceAll(tuple[0], tuple[1]), text);
+      ]
+      return punctuationTuples.reduce((t, tuple) => t.replaceAll(tuple[0], tuple[1]), text)
     },
   },
 
@@ -82,9 +82,9 @@ export const textHandlers: TextHandlers = {
     description: "删除引用角标，如: [1], [2, 3], [4-7]",
     activate: true,
     executor: (text) => {
-      text = text.replaceAll(/\[[\d,\-\s]+]/g, "");
-      text = text.replaceAll(/【[\d,\-\s]+】/g, "");
-      return text;
+      text = text.replaceAll(/\[[\d,\-\s]+]/g, "")
+      text = text.replaceAll(/【[\d,\-\s]+】/g, "")
+      return text
     },
   },
 
@@ -95,24 +95,24 @@ export const textHandlers: TextHandlers = {
     activate: false,
     description: "全角字符转半角字符",
     executor: (text: string) => {
-      let result = "";
+      let result = ""
       for (let i = 0; i < text.length; i++) {
-        const char = text.charCodeAt(i);
+        const char = text.charCodeAt(i)
         // 中文空格替换为英文空格
         if (char == 12288) {
-          result += " ";
+          result += " "
         } else if (
           char > 65280 &&
           char < 65375 &&
           // 对以下全角字符不做转换
           [..."，：；·！#￥%…（）"].indexOf(text[i]) === -1
         ) {
-          result += String.fromCharCode(char - 65248);
+          result += String.fromCharCode(char - 65248)
         } else {
-          result += String.fromCharCode(text.charCodeAt(i));
+          result += String.fromCharCode(text.charCodeAt(i))
         }
       }
-      return result;
+      return result
     },
   },
 
@@ -176,8 +176,8 @@ export const textHandlers: TextHandlers = {
     description: "将简体中文转换为繁体中文",
     activate: false,
     executor: (text: string) => {
-      const converter = Converter({ from: "cn", to: "hk" });
-      return converter(text);
+      const converter = Converter({ from: "cn", to: "hk" })
+      return converter(text)
     },
   },
 
@@ -185,8 +185,8 @@ export const textHandlers: TextHandlers = {
     description: "将繁体中文转换为简体中文",
     activate: false,
     executor: (text: string) => {
-      const converter = Converter({ from: "hk", to: "cn" });
-      return converter(text);
+      const converter = Converter({ from: "hk", to: "cn" })
+      return converter(text)
     },
   },
 }
