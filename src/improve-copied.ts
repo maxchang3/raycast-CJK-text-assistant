@@ -1,5 +1,5 @@
 import { Toast, showHUD, showToast, Clipboard, getSelectedText, closeMainWindow } from "@raycast/api"
-import { formatters } from "./lib"
+import { copyTools } from "./lib"
 
 export default async function main() {
   try {
@@ -11,7 +11,7 @@ export default async function main() {
       return
     }
     let outputText = selection
-    Object.values(formatters).forEach((textHandler) => {
+    Object.values(copyTools).forEach((textHandler) => {
       if (textHandler.activate) {
         outputText = textHandler.executor(outputText)
       }

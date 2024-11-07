@@ -12,4 +12,4 @@ getEntries(preferences).forEach(([handlerName, activate]) => {
   textHandlers[handlerName].activate = activate
 })
 
-export { textHandlers as formatters }
+export { textHandlers as copyTools }
