@@ -10,7 +10,7 @@
 <p align="center">
 
 Improve the formatting of Chinese, Japanese, and Korean(CJK) text (especially when mixed with English) with the following two commands:
-* **Improve Copied Text**: Improve the formatting of text copied from PDFs or OCR (ported from [paper-assistant](https://github.com/laorange/paper-assistant)，mainly for Chinese text)
+* **Improve Copied Text**: Improve the formatting of text copied from PDFs or OCR，remove extra spaces, line breaks, and garbled characters. (ported from [paper-assistant](https://github.com/laorange/paper-assistant)，mainly for Chinese text)
 * **Format Text**: Add spaces between CJK characters and English characters. (via [pangu.js](https://github.com/vinta/pangu.js))
 </p>
 
