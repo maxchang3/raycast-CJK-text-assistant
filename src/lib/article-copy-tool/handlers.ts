@@ -72,6 +72,20 @@ export const textHandlers: TextHandlers = {
     },
   },
 
+  transferQuotesToCornerBracket: {
+    description: "将中文引号转换为直角引号（「」）",
+    activate: false,
+    executor: (text) => {
+      const quotesTuples = [
+        ["“", "「"],
+        ["”", "」"],
+        ["‘", "『 "],
+        ["’", "』"],
+      ]
+      return quotesTuples.reduce((t, tuple) => t.replaceAll(tuple[0], tuple[1]), text)
+    },
+  },
+
   deleteReferenceCurveBadge: {
     description: "删除引用角标，如: (1), (2, 3), (4-7)",
     activate: false,
