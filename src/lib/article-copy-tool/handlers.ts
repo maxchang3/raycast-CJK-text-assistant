@@ -28,7 +28,7 @@ export interface TextHandlerWithName extends TextHandler {
 export type ReplaceTuple = [RegExp | string, string]
 
 export const textHandlers: TextHandlers = {
-  transferEnglishPunctuationToChinese: {
+  convertEnglishPunctuationToChinese: {
     activate: false,
     description: "将英文标点转换为中文标点",
     executor: (text) => {
@@ -50,7 +50,7 @@ export const textHandlers: TextHandlers = {
     },
   },
 
-  transferChinesePunctuationToEnglish: {
+  convertChinesePunctuationToEnglish: {
     activate: false,
     description: "将中文标点转换为英文标点",
     executor: (text) => {
@@ -72,7 +72,7 @@ export const textHandlers: TextHandlers = {
     },
   },
 
-  transferQuotesToCornerBracket: {
+  convertQuotesToCornerBracket: {
     description: "将中文引号转换为直角引号（「」）",
     activate: false,
     executor: (text) => {
