@@ -21,6 +21,12 @@
       "title": "Format Text",
       "description": "Format text using pangu.js.",
       "mode": "no-view"
+    },
+    {
+      "name": "quotes-to-corner",
+      "title": "Convert Quotes to Corner Bracket",
+      "description": "Convert Chinese quotes to corner brackets.（「」）",
+      "mode": "no-view"
     }
   ],
   "preferences": [
