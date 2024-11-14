@@ -24,8 +24,8 @@
     },
     {
       "name": "quotes-to-corner",
-      "title": "Convert Quotes to Corner Bracket",
-      "description": "Convert Chinese quotes to corner brackets.（「」）",
+      "title": "Convert CJK Quotes to Corner Bracket",
+      "description": "Convert CJK quotes to corner brackets.（「」）",
       "mode": "no-view"
     }
   ],
@@ -49,7 +49,7 @@
       "label": "开启"
     },
     {
-      "name": "convertQuotesToCornerBracket",
+      "name": "convertCJKQuotesToCornerBracket",
       "title": "将中文引号转换为直角引号（「」）",
       "description": "将中文引号转换为直角引号（「」）",
       "type": "checkbox",

@@ -72,7 +72,7 @@ export const textHandlers: TextHandlers = {
     },
   },
 
-  convertQuotesToCornerBracket: {
+  convertCJKQuotesToCornerBracket: {
     description: "将中文引号转换为直角引号（「」）",
     activate: false,
     executor: (text) => {

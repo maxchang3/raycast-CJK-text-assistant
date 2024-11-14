@@ -12,7 +12,7 @@
 改进中日韩（CJK）文本的排版（尤其是与英文混排），提供以下几个命令：
 * **Improve Copied Text**: 优化从 PDF 或 OCR 中复制的文本格式，智能删除空行、空格、乱码。（移植自 [paper-assistant](https://github.com/laorange/paper-assistant)）
 * **Format Text**: 在 CJK 字符和英文字符之间添加空格。（通过 [pangu.js](https://github.com/vinta/pangu.js))
-* **Convert Quotes to Corner Bracket**: 将引号转换为直角引号（“” -> 「」，‘’ -> 『』）。
+* **Convert CJK Quotes to Corner Bracket**: 将中文引号转换为直角引号（“” -> 「」，‘’ -> 『』）。
 </p>
 
 ## 动机
@@ -54,9 +54,9 @@
 * 添加了一些新的替换规则
 * 对于行尾换行符会单独保留
 
-### Convert Quotes to Corner Bracket（引号转换）
+### Convert CJK Quotes to Corner Bracket（引号转换）
 
-将引号转换为直角引号（“” -> 「」，‘’ -> 『』）。
+将中文引号转换为直角引号（“” -> 「」，‘’ -> 『』）。
 
 
 ## Credits

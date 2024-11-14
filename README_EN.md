@@ -12,7 +12,7 @@
 Improve the formatting of Chinese, Japanese, and Korean(CJK) text (especially when mixed with English) with the following two commands:
 * **Improve Copied Text**: Improve the formatting of text copied from PDFs or OCR，remove extra spaces, line breaks, and garbled characters. (ported from [paper-assistant](https://github.com/laorange/paper-assistant)，mainly for Chinese text)
 * **Format Text**: Add spaces between CJK characters and English characters. (via [pangu.js](https://github.com/vinta/pangu.js))
-* **Convert Quotes to Corner Bracket**: Convert quotes to corner brackets（“” -> 「」，‘’ -> 『』）。
+* **Convert CJK Quotes to Corner Bracket**: Convert CJK quotes to corner brackets（“” -> 「」，‘’ -> 『』）。
 
 </p>
 
@@ -55,9 +55,9 @@ Compared to the original project:
 * Added new rules
 * For line breaks at the end of a line, they will be retained separately
 
-### Convert Quotes to Corner Bracket
+### Convert CJK Quotes to Corner Bracket
 
-Convert quotes to corner brackets（“” -> 「」，‘’ -> 『』）.
+Convert CJK quotes to corner brackets（“” -> 「」，‘’ -> 『』）.
 
 ## Credits
 
