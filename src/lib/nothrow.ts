@@ -26,5 +26,4 @@ function nothrow<T extends AnyFunction>(fn: T) {
     }
 }
 
-
 export const getSelectedText = nothrow(_getSelectedText)
