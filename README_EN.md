@@ -52,7 +52,12 @@ Inherits almost all features from [paper-assistant](https://github.com/laorange/
 
 Compared to the original project:
 * **Chinese typesetting optimization** is enabled by default, see [CONFIG. MD](CONFIG.md) for default values
+* Added new rules
 * For line breaks at the end of a line, they will be retained separately
+
+### Convert Quotes to Corner Bracket
+
+Convert quotes to corner brackets（“” -> 「」，‘’ -> 『』）.
 
 ## Credits
 
