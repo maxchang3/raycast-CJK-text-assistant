@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "chinese-copy-assistant",
+  "name": "cjk-text-assistant",
   "title": "CJK Text Assistant",
   "description": "Improve the formatting of CJK text. Format text copied from PDFs or OCR, add whitespace between CJk characters and English characters, and more.",
   "icon": "extension-icon.png",
